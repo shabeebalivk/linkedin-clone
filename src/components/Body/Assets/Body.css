@@ -1,0 +1,134 @@
+.body-container {
+    background-color: #F3F2EF;
+    display: flex;
+    height: 100%;
+    padding: 0 50px;
+    padding-top: 50px;
+}
+
+.body-profile-section{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-div {
+    width: 90%;
+    height: 300px;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    border: 0.5px solid lightgray;
+}
+
+.profile-div-top {
+    flex: 1.6;
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dp-img {
+    border-radius: 50%;
+}
+
+.profile-div-top b {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: -10px;
+}
+
+.profile-div-bottom {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.view-details {
+    padding: 0 15px;
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    color: gray;
+}
+
+.number-text {
+    color: #108bef;
+}
+
+.my-items-container {
+    border-top:  1px solid lightgray ;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+.my-items-container p {
+    font-size: 13px;
+    margin-left: 7px;
+    font-weight: 600;
+}
+
+.body-post-section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.post-div {
+    width: 95%;
+    height: 100%;
+    background-color: white;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid lightgray;
+}
+
+.body-news-section{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.news-div {
+    width: 90%;
+    height: 300px;
+    background-color: white;
+    border: 0.5px solid lightgray;
+    border-radius: 12px;
+    padding: 0px 10px 10px 10px;
+}
+
+.news-div-heading {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@media (max-width: 760px) {
+    .body-profile-section{
+       display: none;
+    }
+
+    .body-news-section{
+        display: none;
+    }
+
+    .body-post-section{
+        width: 100%;
+    }
+
+    .body-container {
+        background-color: white;
+        padding: 0 0;
+    }
+}
+

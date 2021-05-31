@@ -1,0 +1,33 @@
+.bottom-menu-container {
+    width: 100vw;
+    height: 50px;
+    border-top: 0.5px solid lightgray;
+    display: none;
+    position: fixed;
+    background-color: white;
+    bottom: 0;
+    z-index: 2;
+}
+
+.not-active-menu {
+    color: gray;
+}
+
+.single-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.single-menu b {
+    font-size: 10px;
+}
+
+@media (max-width: 760px) {
+    .bottom-menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}

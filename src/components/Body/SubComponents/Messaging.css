@@ -1,0 +1,49 @@
+.messaging-container {
+    width: 280px;
+    border: 0.5px solid lightgray;
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    background-color: white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.messaging-top {
+    display: flex;
+    height: 45px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.messaging-top-left {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.messaging-top-right {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.message-bottom {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 760px) {
+    .messaging-container {
+        display: none;
+    }
+}
